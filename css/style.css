@@ -1,30 +1,17 @@
-/* 
 
-
-.main {
-    margin: 7% 15%;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
-    border-radius: 2px;
-    padding: 5px  20px ;
-    box-shadow: 10px 13px 22px rgba(22, 22, 22, 0.736);
-} */
-
-.header{
-    width: 100vw;
-    background-color: gray;
-    top: 0%;
-    height: 80px;
-    margin-left: -7px;
-    position: fixed;
-} 
-h1.count {
-    border-radius: 5px;
-    width: 7vw;
-    padding: 3px 10px;
+.heas{
     background-color: black;
-    color: aliceblue;
-    margin-left: 80%;
+    margin-left: 81.5%;
+    width: 5.5vw;
+    height: 5vh;
+    border-radius: 5px;
+   
+
+}
+.heas > .count {
+    
+    font-size: 30px;
+    color: white;
 }
 
 #ques {
@@ -45,20 +32,15 @@ input {
 }
 
 .bottom {
-    
-    background-color: gray; 
     position: fixed;
-/* padding: 0px 18px 32px 22px; */
-    /* margin-left: -20px; */
+    margin-left: 50px;
     height: 20vh; 
     bottom: 0;
     width: 1000vw;
 
-
 }
-.main,.bottom{
+.bottom{
     width: 60vw;
-
 }
 
 p{
@@ -79,7 +61,7 @@ button {
      padding: 10px 29px; 
 }
 button[type="submit"]{
-    margin-left: 80%;
+    margin-left: 125%;
     top: -30px; 
 }
 button[type="submit"]:hover {
